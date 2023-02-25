@@ -13,6 +13,22 @@ To use the app locally:
 - Start the server: python manage.py runserver
 - Access the app at http://localhost:8000
 
+Existing urls:
+Authentication
+- /auth/login
+- /auth/register
+
+Placeholder
+- /supportdesk/placeholder
+
+For customer:
+- /supportdesk/
+- /supportdesk/support
+
+For agent:
+- /supportdesk/
+- Other urls are accessed via interacting with tickets itself
+
 Deployment
 --
 The app has been deployed to Flyio and can be accessed at https://supportdesk.fly.dev
